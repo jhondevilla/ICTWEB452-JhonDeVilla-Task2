@@ -1,0 +1,122 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Main content*/
+
+h1{
+    margin: 50px;
+    font-size: 400%;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    padding-top: 40px;
+    background-color: white;
+    padding-right: 40px;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: purple;
+}
+
+div{
+    margin: 50px;
+    display: flex;
+}
+
+.s1{
+    width: 50%;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+
+}
+
+.s2{
+    width: 50%;
+    height: auto;
+    float: right;
+
+}
+
+h2{
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.comp{
+    display: inline-block;
+    width: 200px;
+
+
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(71, 70, 68);
+    color: white;
+}
+
+
+/*This is a responsive for any devices*/
+
+@media (max-width: 625px) and (min-width: 200px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
+  @media (max-width: 625px) and (min-width: 200px) {
+    .s1, .s2 {
+      width: 100%;
+
+    }
+  }
+
+  @media (max-width: 625px) and (min-width: 200px) {
+     .s2 {
+      width: 100%;
+      padding-bottom: 50px;
+
+    }
+  }
+
+  @media (max-width: 625px) and (min-width: 200px)  {
+    nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 625px) and (min-width: 200px)  {
+    h1 {
+        font-size: 250%;
+
+    }
+  }
+
+
+
+
+
